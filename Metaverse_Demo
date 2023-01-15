@@ -1,0 +1,33 @@
+(This is just a test demo to play around and unlock some more ideas for https://vifi.space developments)
+
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-environment-component@1.3.1/dist/aframe-environment-component.min.js"></script>
+  </head>
+  <body>
+    <a-scene gltf-model="dracoDecoderPath: https://www.gstatic.com/draco/v1/decoders/;
+    meshoptDecoderPath: https://unpkg.com/meshoptimizer@0.16.0/meshopt_decoder.js;">
+        <a-assets>
+          <a-asset-item id="ambulance" src="https://market-assets.fra1.cdn.digitaloceanspaces.com/market-assets/models/ambulance/model.gltf"></a-asset-item>
+          <a-asset-item id="house" src="https://market-assets.fra1.cdn.digitaloceanspaces.com/market-assets/models/house-7/model.gltf"></a-asset-item>
+          <a-asset-item id="helicopter" src="https://market-assets.fra1.cdn.digitaloceanspaces.com/market-assets/models/helicopter/model.gltf"></a-asset-item>
+          <a-asset-item id="house2" src="https://market-assets.fra1.cdn.digitaloceanspaces.com/market-assets/models/library-large/model.gltf"></a-asset-item>
+          <a-asset-item id="house3" src="https://market-assets.fra1.cdn.digitaloceanspaces.com/market-assets/models/library-large/model.gltf"></a-asset-item>
+          <a-asset-item id="house4" src="https://market-assets.fra1.cdn.digitaloceanspaces.com/market-assets/models/house-5/model.gltf"></a-asset-item>  
+          <a-asset-item id="Solarpanel" src="https://vazxmixjsiawhamofees.supabase.co/storage/v1/object/public/models/solar-panel/model.gltf"></a-asset-item>
+          <a-asset-item id="Spaceship"src="https://vazxmixjsiawhamofees.supabase.co/storage/v1/object/public/models/low-poly-spaceship/model.gltf"></a-asset-item>
+        </a-assets>
+      <a-sky color="#ECECEC"></a-sky>
+      <a-entity environment="preset: contact;"></a-entity>
+      <a-entity position="3.5 0 -15"   gltf-model="#ambulance"></a-entity>
+      <a-entity position="2 10 -14" rotation="0 -20 0" scale="1.25 1.25 1.25"  gltf-model="#helicopter"></a-entity>
+      <a-entity position="0 0 -15" scale="9 9 9"   gltf-model="#house"></a-entity>
+      <a-entity position="-14 0 -15" scale="7 7 7"   gltf-model="#house2"></a-entity>
+      <a-entity position="10 11 -5" rotation="0 -10 0" scale="1.25 1.25 1.25"  gltf-model="#Spaceship"></a-entity>
+      <a-entity position="14 0 -15" scale="7 7 7"   gltf-model="#house3"></a-entity>
+      <a-entity position="30 0 -20" scale="7 7 7"   gltf-model="#house4"></a-entity>
+      <a-entity position="5 7 -16" rotation="0 -6 0" scale="1.25 1.25 1.25"  gltf-model="#Solarpanel"></a-entity>
+    </a-scene>
+  </body>
+</html>
