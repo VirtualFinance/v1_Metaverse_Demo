@@ -20,6 +20,7 @@
           <a-asset-item id="windturbine" src="https://market-assets.fra1.cdn.digitaloceanspaces.com/market-assets/models/wind-turbine/model.gltf"></a-asset-item>
           <a-asset-item id="windturbine2" src="https://market-assets.fra1.cdn.digitaloceanspaces.com/market-assets/models/wind-turbine/model.gltf"></a-asset-item>
           <a-asset-item id="diamond" src="https://vazxmixjsiawhamofees.supabase.co/storage/v1/object/public/models/diamond/model.gltf"></a-asset-item>
+          <a-asset-item id="house5" src="https://market-assets.fra1.cdn.digitaloceanspaces.com/market-assets/models/library-large/model.gltf"></a-asset-item>
         </a-assets>
       <a-sky color="#ECECEC"></a-sky>
       <a-entity environment="preset: contact;"></a-entity>
@@ -28,12 +29,13 @@
       <a-entity position="0 0 -15" scale="9 9 9"   gltf-model="#house"></a-entity>
       <a-entity position="-14 0 -15" scale="7 7 7"   gltf-model="#house2"></a-entity>
       <a-entity position="10 11 -5" rotation="0 -10 0" scale="1.25 1.25 1.25"  gltf-model="#spaceship"></a-entity>
-      <a-entity position="14 0 -15" scale="7 7 7"   gltf-model="#house3"></a-entity>
-      <a-entity position="30 0 -20" scale="7 7 7"   gltf-model="#house4"></a-entity>
+      <a-entity position="15 0 -20" scale="7 7 7"   gltf-model="#house3"></a-entity>
+      <a-entity position="35 0 -22" scale="8 8 8"   gltf-model="#house4"></a-entity>
       <a-entity position="5 7 -16" rotation="0 -6 0" scale="1.25 1.25 1.25"  gltf-model="#solarpanel"></a-entity>
       <a-entity position="7 0 -5" scale="1.25 1.25 1.25"  gltf-model="#diamond"></a-entity>
-      <a-entity position="-15 0 -35" scale="7 7 7"   gltf-model="#windturbine"></a-entity>
-      <a-entity position="+20 0 -35" scale="7 7 7"   gltf-model="#windturbine2"></a-entity>
+      <a-entity position="-20 0 -35" scale="7 7 7"   gltf-model="#windturbine"></a-entity>
+      <a-entity position="+30 0 -35" scale="7 7 7"   gltf-model="#windturbine2"></a-entity>
+      <a-entity position="-45 0 -10" scale="10 10 10"   gltf-model="#house5"></a-entity>
     </a-scene>
   </body>
 </html>
